@@ -1,0 +1,7 @@
+.DS_Store
+.idea/
+__pycache__/
+*.mov
+*.mp4
+qr.png
+
