@@ -2,7 +2,6 @@
 
 from flask import Flask, request, jsonify, send_from_directory
 from pymongo import DESCENDING
-import tests
 import datetime
 from datetime import timedelta
 from flask import make_response, current_app
@@ -192,4 +191,4 @@ def result():
 
 
 if __name__ == "__main__":
-    app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0', port=3144)
